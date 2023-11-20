@@ -1,16 +1,29 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Layout</title>
+  <style>
+    #holder {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
 
+    #holder > * {
+      margin: 5px; /* Optional: Add some spacing between items */
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<div id="holder">
+  <!-- Your items go here -->
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <!-- Add more items as needed -->
+</div>
 
 </body>
-
 </html>
